@@ -25,6 +25,10 @@ function Map() {
           onClick={() => {
             setSelectedPark(park);
           }}
+          icon={{
+            url: "/skateboard.svg",
+            scaledSize: new window.google.maps.Size(25, 25)
+          }}
         />
       ))}
       {selectedPark && (
